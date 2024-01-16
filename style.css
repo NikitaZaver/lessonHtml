@@ -1,0 +1,23 @@
+p {
+  font-size: 40px;
+  color: green;
+  font-weight: bold;
+  text-align: center
+}
+
+.form {
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 5px;
+    font-size: 16px;
+   }
+	
+p1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+p2 {
+	display: flex;
+    justify-content: center;
+}

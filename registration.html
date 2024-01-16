@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Anime.nik Регистрация</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="text">
+			<p>Регистрация пользователя сайта Anime.nik</p>
+				<div class="form">
+					<form action="registration.php" method="post">
+							<p1><label for="clientName">Ваше имя: </label>
+							<input type="text"  id="clientName" name="clientName" /></p1>
+					
+							<br> <br>
+								
+							<p1><label for="story">Расскажите немного о себе: </label>
+							<textarea rows="5" cols="45" name="story"></textarea></p1>
+					
+							<br> <br>
+					
+							<p1><label for="gender">Пол: </label></p1>
+							<input type="radio" name="gender" value="male">Муж
+							<input type="radio" name="gender" value="female">Жен	
+					
+							<br> <br>
+					
+							<p1><label for="genres">Какие жанры вам нравятся: </label><br/></p1>
+							<input type="checkbox" name="genres" value="romance">Романтика
+							<input type="checkbox" name="genres" value="comedy">Комедия
+							<input type="checkbox" name="genres" value="seinen">Сэйнэн
+							<input type="checkbox" name="genres" value="isekai">Исекай<br/>
+							<input type="checkbox" name="genres" value="furs">Меха
+							<input type="checkbox" name="genres" value="sport">Спорт
+							<input type="checkbox" name="genres" value="horror">Ужасы
+							<input type="checkbox" name="genres" value="magic">Магия		
+							
+							<br> <br>
+									
+							<p1>Какие персанажи аниме знакомы вам: <br/>
+							<select name="select" size="4" multiple>
+								<option selected value="Naruto Uzumaki">Наруто Удзумаки</option>
+								<option value="Monkey D. Luffy">Манки Д. Луффи</option>
+								<option value="Light Yagami">Лайт Ягами</option>
+								<option value="Edward Elric">Эдвард Элрик</option>
+							</select></p1>
+							
+							<br> <br>
+								
+							<p1>Самый любимый герой на ваш взгляд: <br/>
+							<select name="hero">
+							<option value="null"></option>
+							<option value="Наруто Удзумаки">Наруто Удзумаки</option>
+							<option value="Манки Д. Луффи">Манки Д. Луффи</option>
+							<option value="Лайт Ягами">Лайт Ягами</option>
+							<option value="Эдвард Элрик">Эдвард Элрик</option>
+							</select></p1>		
+							
+							<br> <br>
+							
+							<p2><button type="submit">Зарегистрироваться</button></p2>
+					</form>	
+				</div>
+		</div>
+	</body>
+</html>
