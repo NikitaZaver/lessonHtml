@@ -1,8 +1,12 @@
-p {
+.text {
   font-size: 40px;
-  color: green;
-  font-weight: bold;
-  text-align: center
+}
+
+.title{
+ color: green;
+ font-size: 40px;
+ font-weight: bold;
+ text-align: center
 }
 
 .form {
@@ -10,14 +14,19 @@ p {
     margin: 20px auto;
     border-radius: 5px;
     font-size: 16px;
-   }
-	
-p1 {
+}
+
+.name,
+.story,
+.gender,
+.genres,
+.select,
+.hero {
 	font-size: 20px;
 	font-weight: bold;
 }
 
-p2 {
+.button {
 	display: flex;
     justify-content: center;
 	font-weight: bold;
