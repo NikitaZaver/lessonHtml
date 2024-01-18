@@ -7,59 +7,64 @@
 	</head>
 	<body>
 		<div class="text">
+			<div class="title">
 			<p>Регистрация пользователя сайта Anime.nik</p>
+			</div>
+
 				<div class="form">
 					<form action="/lessonHtml/index.html" method="post">
-							<p1><label for="clientName">Ваше имя: </label>
-							<input type="text"  id="clientName" name="clientName" /></p1>
-					
-							<br> <br>
-								
-							<p1><label for="story">Расскажите немного о себе: </label>
-							<textarea rows="5" cols="45" id="story" name="story"></textarea></p1>
-					
-							<br> <br>
-					
-							<p1><label for="gender1">Пол: </label></p1>
-							<input type="radio" id="gender1" name="gender" value="male">Муж
-							<input type="radio" id="gender2" name="gender" value="female">Жен
-					
-							<br> <br>
-					
-							<p1><label for="genres">Какие жанры вам нравятся: </label><br/></p1>
-							<input type="checkbox" id="genres" name="genres" value="romance">Романтика
-							<input type="checkbox" id="genres1" name="genres" value="comedy">Комедия
-							<input type="checkbox" id="genres2" name="genres" value="seinen">Сэйнэн
-							<input type="checkbox" id="genres3" name="genres" value="isekai">Исекай<br/>
-							<input type="checkbox" id="genres4" name="genres" value="furs">Меха
-							<input type="checkbox" id="genres5" name="genres" value="sport">Спорт
-							<input type="checkbox" id="genres6" name="genres" value="horror">Ужасы
-							<input type="checkbox" id="genres7" name="genres" value="magic">Магия
-							
-							<br> <br>
-									
-							<p1>Какие персанажи аниме знакомы вам: <br/>
+						<div class="name">
+							<p><label for="clientName">Ваше имя: </label>
+							<input type="text"  id="clientName" name="clientName" /></p>
+						</div>
+
+						<div class="story">
+							<p><label for="story">Расскажите немного о себе: </label>
+							<textarea rows="5" cols="45" id="story" name="story"></textarea></p>
+						</div>
+
+						<div class="gender">
+							<p>Пол: </p>
+						</div>
+						<input type="radio" id="gender1" name="gender" value="male"><label for="gender1">Муж</label>
+						<input type="radio" id="gender2" name="gender" value="female"><label for="gender2">Жен</label>
+
+						<div class="genres">
+							<p>Какие жанры вам нравятся:<br/></p>
+						</div>
+						<input type="checkbox" id="genres1" name="genres" value="romance"><label for="genres1">Романтика</label>
+						<input type="checkbox" id="genres2" name="genres" value="comedy"><label for="genres2">Комедия</label>
+						<input type="checkbox" id="genres3" name="genres" value="seinen"><label for="genres3">Сэйнэн</label>
+						<input type="checkbox" id="genres4" name="genres" value="isekai"><label for="genres4">Исекай</label><br/>
+						<input type="checkbox" id="genres5" name="genres" value="furs"><label for="genres5">Меха</label>
+						<input type="checkbox" id="genres6" name="genres" value="sport"><label for="genres6">Спорт</label>
+						<input type="checkbox" id="genres7" name="genres" value="horror"><label for="genres7">Ужасы</label>
+						<input type="checkbox" id="genres8" name="genres" value="magic"><label for="genres8">Магия</label>
+
+						<div class="select">
+							<p>Какие персанажи аниме знакомы вам: <br/></p>
+						</div>
 							<select name="select" size="4" multiple>
 								<option selected value="Naruto Uzumaki">Наруто Удзумаки</option>
 								<option value="Monkey D. Luffy">Манки Д. Луффи</option>
 								<option value="Light Yagami">Лайт Ягами</option>
 								<option value="Edward Elric">Эдвард Элрик</option>
-							</select></p1>
-							
-							<br> <br>
-								
-							<p1>Самый любимый герой на ваш взгляд: <br/>
+							</select>
+
+						<div class="hero">
+							<p>Самый любимый герой на ваш взгляд: <br/></p>
+						</div>
 							<select name="hero">
 							<option value="null"></option>
 							<option value="Наруто Удзумаки">Наруто Удзумаки</option>
 							<option value="Манки Д. Луффи">Манки Д. Луффи</option>
 							<option value="Лайт Ягами">Лайт Ягами</option>
 							<option value="Эдвард Элрик">Эдвард Элрик</option>
-							</select></p1>		
-							
-							<br> <br>
-							
-							<p2><button type="submit">Зарегистрироваться</button></p2>
+							</select>
+
+							<div class="button">
+							<p><button type="submit">Зарегистрироваться</button></p>
+							</div>
 					</form>	
 				</div>
 		</div>
