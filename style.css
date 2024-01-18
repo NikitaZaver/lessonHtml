@@ -21,12 +21,17 @@
 .gender,
 .genres,
 .select,
-.hero {
+.hero,
+.tabl1,
+.tabl2 {
 	font-size: 20px;
 	font-weight: bold;
 }
 
-.button {
+.button,
+.registration,
+.website,
+.img {
 	display: flex;
     justify-content: center;
 	font-weight: bold;
